@@ -1,5 +1,6 @@
 package Tasks;
 
+import io.qameta.allure.Description;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,6 +11,7 @@ import org.testng.annotations.Test;
 
 public class Task1_Selenium_project1 {
 
+    @Description("Verify that the katalon cura app is working")
     @Test
     public void test_app_cura_app() throws InterruptedException {
 
