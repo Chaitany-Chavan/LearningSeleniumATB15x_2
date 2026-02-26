@@ -1,4 +1,4 @@
-package com.thetestingacademy;
+package Ex02_Selenium_Basics;
 
 import org.openqa.selenium.firefox.FirefoxDriver;
 
