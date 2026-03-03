@@ -1,4 +1,4 @@
-package Tasks;
+package com.thetestingacademy.Index.Tasks;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;

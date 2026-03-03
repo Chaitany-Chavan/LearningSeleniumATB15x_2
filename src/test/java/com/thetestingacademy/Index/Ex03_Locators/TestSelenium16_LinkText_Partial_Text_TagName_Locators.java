@@ -1,4 +1,4 @@
-package Ex03_Locators;
+package com.thetestingacademy.Index.Ex03_Locators;
 
 import io.qameta.allure.Description;
 import org.openqa.selenium.By;

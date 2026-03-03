@@ -1,4 +1,4 @@
-package Ex01_Selenium;
+package com.thetestingacademy.Index.Ex01_Selenium;
 
 public class Selenium003 {
     public static void main(String[] args) {

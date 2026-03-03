@@ -1,0 +1,16 @@
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/HP/IdeaProjects/15xProgram/LearningSeleniumATB15x_2/src/test/java/Tasks">
+        <classes>
+            <class name="Tasks.Task1_Selenium_project1">
+                <methods>
+                    <include name="test_app_cura_app"/>
+                </methods>
+            </class>
+            <class name="Tasks.Task2_TTA_Bank_SeleniumProject2">
+                <methods>
+                    <include name="test_TTA_Bank_SignUp_Page"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

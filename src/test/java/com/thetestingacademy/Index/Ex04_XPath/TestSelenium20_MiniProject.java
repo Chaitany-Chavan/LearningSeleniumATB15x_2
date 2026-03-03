@@ -1,4 +1,4 @@
-package Ex04_XPath;
+package com.thetestingacademy.Index.Ex04_XPath;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

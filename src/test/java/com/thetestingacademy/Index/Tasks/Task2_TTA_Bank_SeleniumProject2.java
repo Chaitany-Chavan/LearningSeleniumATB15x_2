@@ -1,4 +1,4 @@
-package Tasks;
+package com.thetestingacademy.Index.Tasks;
 
 import io.qameta.allure.Description;
 import io.qameta.allure.Owner;

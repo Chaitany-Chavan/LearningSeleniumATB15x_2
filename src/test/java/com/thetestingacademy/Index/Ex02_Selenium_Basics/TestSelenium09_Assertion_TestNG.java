@@ -1,4 +1,4 @@
-package Ex02_Selenium_Basics;
+package com.thetestingacademy.Index.Ex02_Selenium_Basics;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
