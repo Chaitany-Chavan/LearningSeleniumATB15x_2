@@ -18,9 +18,10 @@ public class TestSeleniumExplicit_MiniProject4 {
 
 
             WebDriver driver = new ChromeDriver();
-            driver.navigate().to("https://www.makemytrip.com/");
+            driver.navigate().to("https://www.makemytrip.com");
             System.out.println(driver.getTitle());
 
+            driver.manage().window().maximize();
 
             // //span[@data-cy='closeModal']
             WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
@@ -29,12 +30,13 @@ public class TestSeleniumExplicit_MiniProject4 {
             WebElement closeModel = driver.findElement(By.xpath("//span[@data-cy='closeModal']"));
             closeModel.click();
 
-
             try {
                 Thread.sleep(10000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
+
+
             driver.quit();
         }
     }
